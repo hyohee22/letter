@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>병호 생일 축하</title>
+  <link rel="stylesheet" href="편지.css">
+</head>
+
+<body>
+  <div class="love">
+    <div class="heart-wrap">
+      <div class="heart-track">
+        <span class="heart">🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷</span>
+        <span class="heart">🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷🩷</span>
+      </div>
+    </div>
+    <img src="ChatGPT Image 2025년 7월 28일 오후 12_07_22 1.png" alt="" class="pix">
+
+    <div class="letter-container">
+  <h2 class="msg-title">편지가 도착했습니다</h2>
+
+  <!-- 닫힌 편지 -->
+  <img src="화면_캡처_2025-07-28_120357-removebg-preview 1.png" alt="닫힌편지" class="letter-closed">
+
+  <p class="msg-sub">읽어보려면 봉투를 클릭하세요</p>
+
+  <!-- 열린 편지 -->
+  <img src="images-removebg-preview 1.png" alt="열린편지" class="letter-open hidden">
+
+  <!-- 편지 내용 -->
+  <div class="letter-text hidden">
+    <h3>😍</h3>
+    <p>
+      병호야 생일 축하해!<br>
+이번에는 조금 더 특별한 편지를 준비했어!ㅋㅋ
+벌써 2번째 함께하는 생일이네 작년 생일이 어제같은데
+이번 생일은 더 의미있는 30번째 생일이잖아 오빠의 청춘 한 가운데에 내가 있다는게 너무 기뻐! 오빠의 선택이 틀리지않게 해줄게 아주 좋은 여자를 만났다 이말이징 <br>
+나한테 표현 해주는걸 보면 참 이런 남자가 어디있나 싶기도 하고 정말 내가 예뻐보이는건가 의심이 가기도 해 
+이쩜 1년 내내 한결같은 사람인건지 싶어서! 아직 우리 놀러가볼 곳도 많고 하고싶은 일들도 많으니 천천히 서로의 버킷리스트를 채워나가자 내가 엉뚱한 요청을 해도 전부 따라주는 병호가 있어서 너무 감사하게 생각해 
+그래서 나도 병호한테 내 모든부분을 숨기지 않고 보여주려고 하는 것 같아. <br> 어제도 오늘도 내일도 매일 숨쉬듯이 같이 행복하자 어때? 
+<br>
+이렇게 오빠 생일을 준비하면서 더 못해줘서 아쉽다는 생각이 들더라 오빠는 이제 나에게 그런 존재야ㅎㅎ
+되돌아 보면 찬란했던 순간들이 얼마나 많은지 몰라 수업이 스쳐가는 마음속 장면들 중에서 오늘같이 더운 날이면 대만 단수이에 가서 노을을 봤던 것도 생각이 나고 
+장태산에 놀러갔던거, 대천에 물놀이 갔던것도 생각나 둘이서만 하는데 재밌을까 싶었던 것들이 둘이라서 재밌었었던 것 같아 <br>서로 의지하고 귀여워하면서 오래오래 만나자 사랑하고 쪼꼬매서 더 더울텐데 올 여름도 무사히 보내자🩷 생일 축하하고 사랑해🩷
+ 
+    </p>
+  </div>
+</div>
+
+
+    <div class="heart-wrap">
+      <div class="heart-track">
+        <span class="heart">🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂</span>
+        <span class="heart">🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂</span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  document.querySelector('.letter-closed').addEventListener('click', function () {
+    // 닫힌 편지 숨기기
+    this.classList.add('hidden');
+
+    // 열린 편지 + 텍스트 보여주기
+    document.querySelector('.letter-open').classList.remove('hidden');
+    document.querySelector('.letter-text').classList.remove('hidden');
+
+    // 이 부분 추가!! 제목 & 안내 문구 숨기기
+    document.querySelector('.msg-title').classList.add('hidden');
+    document.querySelector('.msg-sub').classList.add('hidden');
+  });
+</script>
+
+
+</body>
+
+</html>
